@@ -1,0 +1,37 @@
+
+body{
+    font-family:Arial, Helvetica, sans-serif
+    
+}
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+
+}
+ tr:nth-child(even){
+    background-color: rgb(132, 191, 243)}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    
+}
+form{
+    border: 1px solid black;
+    padding: 18px;
+    width: max-content;
+}
+form label{
+    display: block;
+    margin-bottom: 8px;
+
+}
+form input {
+    font-size: large ;
+    padding:5px;
+
+}
